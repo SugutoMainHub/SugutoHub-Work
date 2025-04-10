@@ -2,7 +2,7 @@ local player = game.Players.LocalPlayer
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "SugutoHub(Fluxus Only Now) ", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "SugutoHub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -63,11 +63,9 @@ Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
-	Name = "Aim Bot for Shooting games(don't work now) ",
+	Name = "Aim Bot for Shooting games ",
 	Callback = function()
-      		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Aimbot-Universal-For-Mobile-and-PC-29153"))()
-  	end    
-})
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Equinox-Hub/main/aimbot.lua", true))()
 
 Tab:AddButton({
 	Name = " TIP:new scripts added soon! For check update sub YT",
@@ -81,4 +79,16 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-OrionLib:Init()
+Tab:AddButton({
+	Name = "Speed(can ban in some games)added later don't work",
+	Callback = function()
+      		
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
