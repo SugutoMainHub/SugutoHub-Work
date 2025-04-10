@@ -17,7 +17,7 @@ CloseCallback = <function> - Function to execute when the window is closed.
 ]]
 
 local Tab = Window:MakeTab({
-	Name = "Scripts",
+	Name = "Tab 1",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -51,7 +51,7 @@ Time = <number> - The duration of the notfication.
 ]]
 
 Tab:AddButton({
-	Name = "BLR Control script(reo need) ",
+	Name = "BlueLock Control script",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDark/MAIN/refs/heads/main/JDARKHUB.txt"))()
   	end    
@@ -63,12 +63,14 @@ Callback = <function> - The function of the button.
 ]]
 
 Tab:AddButton({
-	Name = "Aim Bot for Shooting games ",
+	Name = "Aim Bot for Shooting games",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Equinox-Hub/main/aimbot.lua", true))()
+  	end    
+})
 
 Tab:AddButton({
-	Name = " TIP:new scripts added soon! For check update sub YT",
+	Name = "Next Script Dead Rail Soon!",
 	Callback = function()
       		print("button pressed")
   	end    
@@ -78,4 +80,3 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
-
