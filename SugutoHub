@@ -2,7 +2,7 @@ local player = game.Players.LocalPlayer
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "SugutoHub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "rost made suguto", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -50,12 +50,6 @@ Image = <string> - The icon of the notification.
 Time = <number> - The duration of the notfication.
 ]]
 
-Tab:AddButton({
-	Name = "BlueLock Control script",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDark/MAIN/refs/heads/main/JDARKHUB.txt"))()
-  	end    
-})
 
 --[[
 Name = <string> - The name of the button.
@@ -555,7 +549,7 @@ end)
 })
 
 Tab:AddButton({
-	Name = "Admin Menu(Type noclip)",
+	Name = "Noclip",
 	Callback = function()
       		local Workspace = game:GetService("Workspace")
 local CoreGui = game:GetService("CoreGui")
