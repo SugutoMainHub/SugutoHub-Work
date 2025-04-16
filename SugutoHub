@@ -17,7 +17,7 @@ local player = game.Players.LocalPlayer
  ]]
  
  local Tab = Window:MakeTab({
- 	Name = "Rost",
+ 	Name = "Tab 1",
  	Icon = "rbxassetid://4483345998",
  	PremiumOnly = false
  })
@@ -69,18 +69,13 @@ local player = game.Players.LocalPlayer
  Tab:AddButton({
  	Name = "Fly Menu",
  	Callback = function()
-       	loadstring(game:HttpGet("https://raw.githubusercontent.com/SugutoMainHub/RostFlu/refs/heads/main/README.md?token=GHSAT0AAAAAADCAJRDEDOS424HO2ZVGUIXMZ77VP6Q"))();
+       		https://raw.githubusercontent.com/SugutoMainHub/RostFlu/refs/heads/main/README.md?token=GHSAT0AAAAAADCAJRDEDOS424HO2ZVGUIXMZ77VP6Q
    	end    
  })
  
  Tab:AddButton({
-	Name = "No Clip",
-	Callback = function()
-      		https://raw.githubusercontent.com/SugutoMainHub/Noclip/refs/heads/main/README.md?token=GHSAT0AAAAAADCAJRDE5DVNS4IOETVKXS7YZ77VYWQ
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
+ 	Name = "(Noclip)",
+ 	Callback = function()
+       		https://raw.githubusercontent.com/SugutoMainHub/Noclip/refs/heads/main/README.md?token=GHSAT0AAAAAADCAJRDE5DVNS4IOETVKXS7YZ77VYWQ
+   	end    
+ })
