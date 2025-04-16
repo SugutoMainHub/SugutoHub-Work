@@ -69,13 +69,13 @@ local player = game.Players.LocalPlayer
  Tab:AddButton({
  	Name = "Fly Menu",
  	Callback = function()
-       		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+       	loadstring(game:HttpGet("https://raw.githubusercontent.com/SugutoMainHub/RostFlu/refs/heads/main/README.md?token=GHSAT0AAAAAADCAJRDEDOS424HO2ZVGUIXMZ77VP6Q"))();
    	end    
  })
  
  Tab:AddButton({
- 	Name = "Admin Menu(Type noclip)",
+ 	Name = "NoClip",
  	Callback = function()
-       		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+         https://raw.githubusercontent.com/SugutoMainHub/Noclip/refs/heads/main/README.md?token=GHSAT0AAAAAADCAJRDE5DVNS4IOETVKXS7YZ77VYWQ
    	end    
  })
