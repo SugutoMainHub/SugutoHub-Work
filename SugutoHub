@@ -17,7 +17,7 @@ local player = game.Players.LocalPlayer
  ]]
  
  local Tab = Window:MakeTab({
- 	Name = "Tab 1",
+ 	Name = "Rost",
  	Icon = "rbxassetid://4483345998",
  	PremiumOnly = false
  })
@@ -74,8 +74,13 @@ local player = game.Players.LocalPlayer
  })
  
  Tab:AddButton({
- 	Name = "NoClip",
- 	Callback = function()
-         https://raw.githubusercontent.com/SugutoMainHub/Noclip/refs/heads/main/README.md?token=GHSAT0AAAAAADCAJRDE5DVNS4IOETVKXS7YZ77VYWQ
-   	end    
- })
+	Name = "No Clip",
+	Callback = function()
+      		https://raw.githubusercontent.com/SugutoMainHub/Noclip/refs/heads/main/README.md?token=GHSAT0AAAAAADCAJRDE5DVNS4IOETVKXS7YZ77VYWQ
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
