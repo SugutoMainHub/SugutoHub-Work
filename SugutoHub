@@ -16,12 +16,24 @@ Icon = <string> - URL to the image you want displayed on the window.
 CloseCallback = <function> - Function to execute when the window is closed.
 ]]
 
+
 local Tab = Window:MakeTab({
-	Name = "Tab 1",
+	Name = "Script",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
+Tab:AddButton({
+	Name = "Credit:SUGUTO🤡",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
 --[[
 Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
@@ -676,3 +688,4 @@ Toggle.MouseButton1Click:connect(function()
 end)
   	end    
 })
+
