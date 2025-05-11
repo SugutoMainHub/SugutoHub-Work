@@ -71,7 +71,7 @@ Callback = <function> - The function of the button.
 Tab:AddButton({
 	Name = "Aim Bot for Shooting games",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/hm5650/Hitblox/refs/heads/main/Hitblox"))()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Aimbot-Universal-For-Mobile-and-PC-29153"))()
   	end    
 })
 
